@@ -11,7 +11,7 @@ public class Main {
 		// bebida.preparar();
 
 		String className;
-		try (Scanner scanner = new Scanner(new File("class name.txt"))) {
+		try (Scanner scanner = new Scanner(new File("class_name.txt"))) {
 			className = scanner.nextLine();
 		}
 
