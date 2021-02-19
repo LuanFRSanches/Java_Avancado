@@ -1,7 +1,6 @@
 package br.com.softblue.java.lambda;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Main {
