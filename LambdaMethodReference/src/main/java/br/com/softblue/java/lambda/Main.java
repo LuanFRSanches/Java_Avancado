@@ -10,8 +10,14 @@ public class Main {
 
 		// nomes.replaceAll(e -> e.toUpperCase());
 
-		nomes.replaceAll(String::toUpperCase);
+		//nomes.replaceAll(String::toUpperCase);
+	
+		//nomes.replaceAll(e->Main.intercalar(e));
+		nomes.replaceAll(Main::intercalar);
+		
 		nomes.forEach(System.out::println);
+	
+	
 	}
 
 	public static String intercalar(String s) {
