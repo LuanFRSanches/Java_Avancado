@@ -39,7 +39,8 @@ public class Main {
 			int resultado = task.get();
 			System.out.println(resultado);
 		} catch (ExecutionException e) {
-			System.out.println("Error: " + e);
+			Throwable innerEx = e.getCause();
+			System.out.println("Error: " + innerEx);
 		}
 
 		service.shutdown();
