@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import java.lang.Object?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1">
+	<top>
+		<MenuBar>
+			<Menu text="Arquivo">
+				<MenuItem text="Sair" />
+			</Menu>
+		</MenuBar>
+	</top>
+	<center>
+		<TextArea />
+	</center>
+	<bottom>
+		<HBox spacing="5" aligment="CENTER_RIGHT">
+			<padding>
+				<Inserts left="7" right="7" bottom="7" />
+			</padding>
+			<Button text="Gravar" />
+			<Button text="Cancelar" />
+		</HBox>
+	</bottom>
+</BorderPane>
+
