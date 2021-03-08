@@ -1,4 +1,4 @@
-module JavaFXSceneBuilder {
+module JavaFXLayouts {
 	exports br.com.softblue.java.javafx;
 
 	requires javafx.base;
