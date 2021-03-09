@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<usuarios>
+	<usuario id="1">
+		<nome>José da Silva</nome>
+		<idade>30</idade>
+		<email>jose@gmail.com</email>
+	</usuario>
+	<usuario id="2">
+		<nome>Maria da Silva</nome>
+		<idade>20</idade>
+		<email>maria@gmail.com</email>
+	</usuario>
+</usuarios>
